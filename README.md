@@ -31,10 +31,21 @@ Pour ce projet, nous allons prendre les technologies suivante:
 Nous allons prendre une architecture 3-tiers car elle est la plus simple et propose les 
 meilleurs performances.
 
-### PROCEDURE DE LANCEMENT
-1. 
-2. 
-3. 
-4. 
-5. 
-6. 
+### PROCEDURE DE DEMARRAGE
+
+1. Pour lancer le front, vous devez installer Node.js. 
+2. Dans un terminal a la racine du dossier client taper la commande:
+
+npm i
+puis
+
+npm runs start
+Lancer le backend:
+
+Pour le backend vous devez avoir un IDE JAva et docker.
+
+Dans un terminal a la racine du dossier backend
+exécuter la commande:
+docker compose up -d
+
+Utiliser votre IDE Java pour executer votre code.
