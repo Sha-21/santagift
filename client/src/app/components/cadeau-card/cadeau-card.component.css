@@ -1,0 +1,7 @@
+.card{
+  border: 1px solid black;
+    float: left;
+    margin: 1px;
+    padding: 10px 3px;
+    width: calc( 100% / 5 - 10px);
+}

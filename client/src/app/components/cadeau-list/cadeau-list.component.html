@@ -1,0 +1,3 @@
+<ng-container *ngFor="let cadeau of cadeaux">
+    <app-cadeau-card [cadeau]="cadeau" (deleteCadeauEvent)="onDeleteCadeauEvent($event)"></app-cadeau-card>
+</ng-container>

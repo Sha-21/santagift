@@ -1,0 +1,18 @@
+<h2>Ajouter un cadeau !</h2>
+<form (ngSubmit)="ajouterCadeau()" [formGroup]="cadeauForm">
+  <div class="form-group">
+    <label for="titre">Titre :
+        <input type="text" formControlName="titre">
+    </label>
+    <label for="description">Description :
+        <input type="text" formControlName="description">
+    </label>
+    <label for="url">URL :
+        <input type="text" formControlName="url">
+    </label>
+    <label for="imgUrl"> Image URL:
+      <input type="text" formControlName="imgUrl">
+    </label>
+    <button class="btn btn-success">Valider</button>
+  </div>
+</form>

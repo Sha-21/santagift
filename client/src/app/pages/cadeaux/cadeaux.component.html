@@ -1,0 +1,4 @@
+<div class="container">
+  <app-cadeau-list [cadeaux]="cadeaux" (deleteCadeauEvent)="supprimerCadeau($event)"></app-cadeau-list>
+</div>
+<app-cadeau-form (save)="save($event)"></app-cadeau-form>

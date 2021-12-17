@@ -1,0 +1,9 @@
+<div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="{{cadeau.imgUrl}}" alt="image de cadeau">
+  <div class="card-body">
+    <h3 class="card-title">{{cadeau.titre}}</h3>
+    <p class="card-text">{{cadeau.description}}</p>
+    <a class="btn btn-primary" href="{{cadeau.url}}">Acheter</a>
+    <a class="btn btn-danger" (click)="supprimerCadeau()">Supprimer</a>
+  </div>
+</div>
