@@ -1,5 +1,3 @@
-"# santagift" 
-
 ## Présentation
 
 Le but de cet exercice est de mettre en place un projet complet avec Angular et SpringBoot.
